@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="comparisonForm">
+        <section class="comparisonForm__container">
+            <h2> Similitud entre usuarios</h2>
+            <div class="comparisonForm__section">
+                <label for="personA">Usuario 1</label>
+                <select name="personA" id="">
+                    
+                </select>
+
+                <label for="personB">Usuario 2</label>
+                <select name="personB" id="">
+
+                </select>
+                <button class="comparisonForm__btn">
+                    Ejecutar
+                </button>
+            </div>
+            <div class="comparisonForm__section">
+                <label for="result">Resultado</label>
+                <input class="comparisonForm__result" type="text" name="result" disabled placeholder="Resultado Final">
+            </div>
+        </section>
+    </form>
+    <script src="./lib/papaparse.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
